@@ -17,10 +17,10 @@ The **Create Video** button is disabled in the live demo as this requires an API
 This demo uses a video template from your account. The example code demonstrates a few features that require a specific template, so be sure to follow the instructions carefully:
 
 1. Create a free account [here](https://creatomate.com/sign-in).
-2. Go to your project settings, and copy your **API Key** and **Video Player Token** under *Programmatic Access*:<br/><br/>![Screenshot](https://user-images.githubusercontent.com/44575638/227715496-5ae23468-c047-4ab8-beb2-e21b6c65d74b.png)<br/><br/>
+2. Go to your project settings, and copy your **API Key** and **Public Token** under *Programmatic Access*:<br/><br/>![Screenshot](https://user-images.githubusercontent.com/44575638/227715496-5ae23468-c047-4ab8-beb2-e21b6c65d74b.png)<br/><br/>
 3. In your dashboard, go to **My Templates**, click **New**, go to the **Storytelling** category, and choose the **"Image Slideshow w/ Intro and Outro"** template, then click **Create Template**:<br/><br/>![Screenshot](https://user-images.githubusercontent.com/44575638/227714779-31292519-3a75-40a4-8c3f-549e28100a48.jpg)<br/><br/>
 4. From the address bar, copy the ID of the newly created template:<br/><br/>![Screenshot](https://user-images.githubusercontent.com/44575638/227736758-f9d522c3-3bbb-4b7b-92c7-e004e9dc16e5.png)<br/><br/>
-5. Create a new file called `.env.local` in the root of the project, providing the **API Key**, **Video Player Token**, and **Template ID** from the previous steps:
+5. Create a new file called `.env.local` in the root of the project, providing the **API Key**, **Public Token**, and **Template ID** from the previous steps:
 
 ```
 CREATOMATE_API_KEY=...
