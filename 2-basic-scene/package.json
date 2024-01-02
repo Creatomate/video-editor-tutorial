@@ -10,15 +10,15 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@creatomate/preview": "^1.1.0",
+    "@creatomate/preview": "^1.4.0",
     "@types/node": "20.4.5",
     "@types/react": "18.2.16",
     "@types/react-dom": "18.2.7",
-    "creatomate": "^1.0.5",
+    "creatomate": "^1.1.0",
     "eslint": "8.45.0",
     "eslint-config-next": "13.4.12",
     "modern-normalize": "2.0.0",
-    "next": "13.4.12",
+    "next": "^13.5.6",
     "prettier": "3.0.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
