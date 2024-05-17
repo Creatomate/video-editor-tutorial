@@ -10,7 +10,7 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@creatomate/preview": "^1.4.0",
+    "@creatomate/preview": "^1.5.0",
     "@types/lodash": "4.14.196",
     "@types/node": "20.4.5",
     "@types/react": "18.2.16",
